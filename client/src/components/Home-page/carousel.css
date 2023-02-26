@@ -1,0 +1,42 @@
+.carousel-item>img{
+  height: 55vh;
+  min-height: 327px;
+  border-radius: 8px;
+}
+
+
+
+.carousel-caption{
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  height: 200px;
+  text-align: center;
+  width: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+}
+
+.carousel-control-prev {
+  width: 75px;
+}
+
+.carousel-control-next {
+  width: 75px;
+} 
+
+

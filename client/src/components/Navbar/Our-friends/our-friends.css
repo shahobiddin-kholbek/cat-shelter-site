@@ -1,0 +1,82 @@
+.our_friends_cp{
+    margin-top: 10px;
+    font-family: "Comic-cat";
+}
+
+
+.our_friends_logos>.col img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.our_friends_logos {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+/* #app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.swiper {
+  width: 300px;
+  height: 330px;
+}
+
+.SwiperSlideItem{
+  width: 300px;
+  height: 330px;
+}
+.alif_academy_logo{
+  color: green;
+}
+
+.mu_logo{
+  color: red;
+}
+
+.real_madrid_logo{
+  color: goldenrod;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.our_friends_swiper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url(https://learn.ilmhona.org/pluginfile.php/1/theme_alpha/customlogotopbar/1674054696/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201.png);
+  background-size: cover;
+  background-color: #fff;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/Official_logo_of_Alif_Bank_in_Tajikistan.png);
+
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url(https://image.shutterstock.com/image-photo/image-260nw-1014183928.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url(https://i.pinimg.com/736x/ca/df/49/cadf49402d7d17ece11874b2b548ee42--real-madrid-logo-spain-football.jpg);
+  background-size: cover;
+
+}
+
+

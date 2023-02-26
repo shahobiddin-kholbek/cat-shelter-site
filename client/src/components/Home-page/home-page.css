@@ -1,0 +1,97 @@
+.home_page_cp{
+  font-family: "Comic-cat";
+
+}
+
+.carousel-caption{
+  width: 350px;
+}
+
+.btn-orange{
+  background-color: orange;
+  color: white;
+  font-size: 17px;
+}
+.btn-orange:hover{
+  background-color: rgb(219, 126, 5);
+}
+
+.greetings{
+  text-align: center;
+}
+
+.greetingsItems>p{
+  line-height: 25px;
+}
+
+.card-text{
+  color: rgb(248, 146, 5);
+  font-weight: 800;
+  line-height: 13px;
+  font-size: 18px;
+}
+
+.card-img-overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+
+.recent_add_cats{
+  color: rgb(235, 77, 4);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.see_all_cats{
+  text-decoration: none;
+  color: rgb(235, 77, 4);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.see_all_cats:hover{
+  text-decoration: underline;
+  color: rgb(248, 146, 5);
+}
+
+.roadToHome{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+  background-color: #ebebeb;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: "Comic-cat";
+}
+
+.roadToHomeTextVariant{
+  display: none;
+}
+
+.roadToHomeTextVariant>ol{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+	.roadToHomeImg>img{
+		display: none;
+	}
+  .roadToHome{
+    line-height: 50px;
+  }
+  .roadToHomeTextVariant{
+    display: block;
+  }
+}

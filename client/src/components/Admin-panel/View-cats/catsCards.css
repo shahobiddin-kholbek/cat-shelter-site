@@ -1,0 +1,113 @@
+#myTab {
+  margin: 10px 10px 15px 10px;
+}
+
+
+.fit-cover {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+
+.w-85 {
+  width: 85%;
+}
+
+.infoAndGender {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: rgb(221, 94, 94);
+  font-weight: 800;
+  line-height: 15px;
+  bottom: 0px;
+  word-wrap: break-word;
+}
+
+.cat-card>a{
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.cat-card {
+  background: #fff;
+  padding: 1em;
+  position: relative;
+  background: url("../../../img/organic-shape-world-reference-14.png");
+  background-position: 25% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  border: 1px solid #4c4c4c;
+  transition: box-shadow 0.3s ease-in-out;
+  font-family: "Comic-cat";
+
+}
+.cat-card:hover {
+  box-shadow: #4c4c4c 0 0 15px;
+}
+
+.cat-name-age-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+}
+
+
+.cat-name {
+  font-size: 1.5em;
+  font-family: roboto;
+  margin: 10px 0px 0px 0px;
+  color: #f89205;
+  font-weight: bold;
+}
+
+.cat-year>p{
+  height: 10px;
+  font-size: 1.3rem;
+  color: #e08c0e;
+  font-weight: bold;
+  margin-bottom: 25px;
+
+}
+
+.cat-description {
+  font-size: 15px;
+  text-align: center;
+  margin: 0px ;
+  color: #e08c0e;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.cat-edit-delete-icons>.icon {
+  width: 25px;
+  margin: 5px;
+}
+.action-icon {
+  fill: #f89205;
+  width: 25px;
+  height: 25px;
+}
+.cat-edit-delete-icons>.icon>svg:hover, 
+.edit_cat>svg:hover {
+  width: 27px;
+  height: 27px;
+}
+.cat-edit-delete-icons {
+  display: inline-flex;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}

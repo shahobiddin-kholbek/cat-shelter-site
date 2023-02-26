@@ -1,0 +1,54 @@
+.addCatCP{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#cat-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  width: 300px;
+  padding: 24px;
+  align-items: start;
+  display: flex; 
+  flex-direction: column;
+  gap: 10px;
+  font-style: italic;
+  background-color: rgb(196, 137, 29);
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+#cat-form > input,
+#cat-form > textarea,
+.modal-body > input {
+  width: 250px;
+}
+ 
+#cat-form > input,
+#cat-form > textarea,
+#cat-form > button,
+#cat-form > .check_gender,
+#cat-form > .check_gender > select,
+.modal-body > input {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgb(236, 184, 87);
+}
+#cat-form > button {
+  background-color: rgb(247, 108, 9);
+  border: 3px solid;
+  border-color: rgb(238, 77, 8);
+  color: rgb(220, 32, 32);
+}
+
+#cat-form > .check_gender > select {
+  border: none;
+}
+
+.addCatView{
+  width: 300px;
+  height: auto;
+}

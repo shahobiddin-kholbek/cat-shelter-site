@@ -1,0 +1,81 @@
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: #d1c5c5;
+    height: 75px;
+    border-radius: 8px;
+  }
+  .topOfSiteText {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .about_us {
+    flex-direction: column!important;
+  }
+  .head_info_about_us > img {
+    width: auto;
+  }
+  .carousel-item > img {
+    min-height: 300px!important;
+    height: 350px!important;
+  }
+  .roadToHomeTextVariant > ol > li {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo_meow_sm_screen {
+    display: block!important;
+    height: 70px;
+  }
+  .topOfSite {
+    display: none !important;
+  }
+
+  .topOfSiteText2 {
+    display: block!important;
+  }
+  .carousel-item > img {
+    min-height: 200px!important;
+    height: 250px!important;
+  }
+  .roadToHomeTextVariant > ol > li {
+    width: 145px;
+  }
+
+  .navbar-nav {
+    width: auto;
+  }
+  .offcanvas.offcanvas-end {
+    height: 400px !important;
+  }
+  .addCatLive {
+    display: none!important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cat-card {
+    width: 21rem;
+  }
+  .meow_cp .container {
+    width: 100%;
+    align-items: center;
+  }
+
+  #carouselExampleCaptions {
+    width: auto;
+    justify-content: start;
+  }
+
+  .carousel-item > img {
+    min-height: 200px!important;
+    height: 200px!important;
+  }
+
+  .table-body {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

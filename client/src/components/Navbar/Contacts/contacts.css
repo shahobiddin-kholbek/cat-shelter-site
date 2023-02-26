@@ -1,0 +1,40 @@
+.our_contacts_cp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mapOfOurLocation>iframe{
+  border-radius: 8px;
+}
+
+.mapAndContacts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.our_contacts {
+  text-align: center;
+}
+
+.our_contacts > div {
+  font-family: "Bosk";
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.line-height-contacts {
+  line-height: 30px;
+}
+
+.our_contacts > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.our_contacts > div > a:hover {
+  color: rgb(235, 77, 4);
+}
+
+

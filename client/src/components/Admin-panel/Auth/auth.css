@@ -1,0 +1,55 @@
+.auth_cp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: white;
+    /* background-color: #f89205; */
+    
+    background-size: cover;
+    background-image: url(https://st4.depositphotos.com/3323343/25763/i/450/depositphotos_257634474-stock-photo-prints-of-silhouettes-of-the.jpg);
+}
+
+.auth_form {
+    border: 1px solid;
+    padding: 25px 20px;
+    background-color: #f89205;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.auth_form>input{
+    width: 250px;
+    border-radius: 8px;
+    padding: 5px 3px 7px 5px;
+    outline-color: orange;
+    border-color: #f89205;
+    font-style: italic;
+}
+
+.wrongLoginOrPassword{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.auth_form>button{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 8px;
+    color: #f89205;
+    font-weight: 600;
+    background-color: yellow;
+
+}
+
+.auth_form>button:hover{
+    background-color: rgb(235, 77, 4);
+    color: white;
+}

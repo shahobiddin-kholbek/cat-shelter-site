@@ -1,0 +1,33 @@
+.vacancies_cp{
+    font-family: "Comic-cat";
+    padding-top: 10px;
+}
+
+.vacancy-head-text{
+    display: flex;
+    justify-content: center;
+}
+.vacanciesMainTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vacanciesMainTexts>h5{
+    text-align: center;
+}
+
+.vacancy-head-text h3{
+    width: 800px;
+}
+
+
+.vacanciesImg>img{
+    width: 25rem;
+    border-radius: 8px;
+}
+.vacanciesImg{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

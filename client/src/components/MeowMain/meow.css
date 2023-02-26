@@ -1,0 +1,42 @@
+
+.container{
+  width: 1140px;
+}
+
+.notFoundPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.pageNotFoundText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.errorPage{
+  color: red;
+}
+
+.meow_cp{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* FONTS */
+@font-face {
+  font-family: "Bosk";
+  src: url(../../fonts/Bosk/Bosk.otf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Comic-cat";
+  src: url(../../fonts/COMIC_CAT/comic-cat-font/Comic_CAT.otf);
+}
